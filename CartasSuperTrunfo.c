@@ -8,8 +8,22 @@
 
 int main() {
 
-    printf("Olá mundo!\n");
-    printf("Novo commit\n");
+// Variáveis da carta 1
+    char estado1;
+    char codigo1[3];
+    char cidade1[15];
+    int populacao1, pturistico1;
+    float area1, pib1;
+
+// Variáveis da carta 2
+    char estado2;
+    char codigo2[3];
+    char cidade2[15];
+    int populacao2, pturistico2;
+    float area2, pib2;
+
+
+
  
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
