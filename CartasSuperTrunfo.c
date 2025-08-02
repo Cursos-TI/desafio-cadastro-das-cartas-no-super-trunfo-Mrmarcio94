@@ -24,36 +24,48 @@ int main() {
 
 
  //Leitura dos dados da carta 1
-    printf("Estado: ");
+    printf("Informe o Estado: ");
     scanf(" %c", &estado1);
-    printf("Código: ");
+    printf("Informe o código: ");
     scanf("%s", codigo1);
-    printf("Nome da cidade: ");
+    printf("Informe o nome da cidade: ");
     scanf(" %[^\\n]", cidade1);
-    printf("População: ");
+    printf("Informe a população: ");
     scanf("%d", &populacao1);
-    printf("Área: ");
+    printf("Informe a área: ");
     scanf("%f", &area1);
-    printf("PIB: ");
+    printf("Informe o PIB: ");
     scanf("%f", &pib1);
-    printf("Números de pontos turísticos: ");
+    printf("Informe o números de pontos turísticos: ");
     scanf("%d", &pturistico1);
 
 // Leitura dos dados da carta 2
-    printf("Estado: ");
+    printf("Informe o Estado: ");
     scanf(" %c", &estado2);
-    printf("Código: ");
+    printf("Informe o código: ");
     scanf("%s", codigo2);
-    printf("Nome da cidade: ");
+    printf("Informe o nome da cidade: ");
     scanf(" %[^\\n]", cidade2);
-    printf("População: ");
+    printf("Informe a população: ");
     scanf("%d", &populacao2);
-    printf("Área: ");
+    printf("Informe a área: ");
     scanf("%f", &area2);
-    printf("PIB: ");
+    printf("Informe o PIB: ");
     scanf("%f", &pib2);
-    printf("Números de pontos turísticos: ");
+    printf("Informe o números de pontos turísticos: ");
     scanf("%d", &pturistico2);
+
+// Exibição dos dados da carta 1
+
+    printf("Carta 1:\n");
+    printf("Estado: %c\n", estado1);
+    printf("Código: %s\n", codigo1);
+    printf("Nome da idade: %s\n", cidade1);
+    printf("População: %d\n", populacao1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f bilhões de reais\n", pib1);
+    printf("Número de pontos turísticos: %d\n", pturistico1);
+
 
 
 
