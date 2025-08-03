@@ -22,7 +22,7 @@ int main() {
     printf("Informe o código: ");
     scanf("%s", codigo1);
     printf("Informe o nome da cidade: ");
-    scanf(" %[^\n]", cidade1);
+    scanf(" %39[^\n]", cidade1);
     printf("Informe a população: ");
     scanf("%d", &populacao1);
     printf("Informe a área: ");
@@ -39,7 +39,7 @@ int main() {
     printf("Informe o código: ");
     scanf("%s", codigo2);
     printf("Informe o nome da cidade: ");
-    scanf(" %[^\n]", cidade2);
+    scanf(" %39[^\n]", cidade2);
     printf("Informe a população: ");
     scanf("%d", &populacao2);
     printf("Informe a área: ");
