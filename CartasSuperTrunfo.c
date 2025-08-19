@@ -37,6 +37,9 @@ int main() {
     densidade1 = (float) populacao1/area1;
     pibpercapita1 = pib1/(float) populacao1;
 
+//Cálculo do Super Poder da carta 1
+    float superpoderc1 = (float)populacao1 + (float)pturistico1 + area1 + pib1 + pibpercapita1 + 1/densidade1; 
+
 // Leitura dos dados da carta 2
     printf("Informe o Estado: ");
     scanf(" %c", &estado2);
