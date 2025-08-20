@@ -16,6 +16,9 @@ int main() {
     int populacao2, pturistico2;
     float area2, pib2, densidade2, pibpercapita2;
 
+//Array de strings para facilitar a exibição do vencedor
+    char cartas[2] = {"Carta 2", "Carta 1"};
+
  //Leitura dos dados da carta 1
     printf("Informe o Estado: ");
     scanf(" %c", &estado1);
@@ -88,16 +91,13 @@ int main() {
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de pontos turísticos: %d\n", pturistico2);
-    printf("Densidade populacional: %.2f hab/km²\n", densidade1);
+    printf("Densidade populacional: %.2f hab/km²\n", densidade2);
     printf("PIB per capita: %.2f reais\n", pibpercapita2);
 
-//Comparação das cartas
-    int vencedorpop = populacao1 > populacao2;
-    int vencedorpturist = pturistico1 > pturistico2;
-    float vencedorarea = area1 > area2; 
-    float vencedorpib = pib1 > pib2;
-    float vencedorpibperca = pibpercapita1 > pibpercapita2;
-    float vencedordensi = densidade1 > densidade2;
+//Exibição dos resultados das comparações
+    printf("\n");
+    printf("Comparação de cartas:\n");
+    printf("População: %s venceu(%d)", cartas[populacao1 > populacao2], [populacao1 > populacao2]);
 
 
 
