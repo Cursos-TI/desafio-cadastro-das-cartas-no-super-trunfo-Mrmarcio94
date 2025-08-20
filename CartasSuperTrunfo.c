@@ -105,11 +105,5 @@ int main() {
     printf("PIB per capita: %s venceu(%d)\n", cartas[pibpercapita1 > pibpercapita2], pibpercapita1 > pibpercapita2);
     printf("Super Poder: %s venceu(%d)\n", cartas[superpoderc1 > superpoderc2], superpoderc1 > superpoderc2);
 
-
-
-
-
-
-
     return 0;
 }
