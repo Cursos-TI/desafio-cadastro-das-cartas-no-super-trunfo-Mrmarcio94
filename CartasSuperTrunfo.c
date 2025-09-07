@@ -20,7 +20,8 @@ int main() {
     char *cartas[2] = {"Carta 2", "Carta 1"};
 
 // Variável para escolha do atributo a ser jogado
-    int atributo;
+    int atributo1;
+    int atributo2;
 
  // Leitura dos dados da carta 1
     printf("Informe o Estado: ");
@@ -98,7 +99,7 @@ int main() {
     printf("PIB per capita: %.2f reais\n", pibpercapita2);
     printf("\n");
 
-//Menu de escolha dos atributos
+//Menu de escolha do 1° atributo
     printf("Escolha um atributo para jogar:\n");
     printf("1 - População\n");
     printf("2 - Área\n");
@@ -106,11 +107,11 @@ int main() {
     printf("4 - Número de pontos turísticos\n");
     printf("5 - Densidade demográfica\n");
     printf("Escolha um atributo: ");
-    scanf("%d", &atributo);
+    scanf("%d", &atributo1);
     printf("\n");
 
 //Casos possíveis de condições de vitória
-    switch (atributo)
+    switch (atributo1)
     {
     case 1:
         if (populacao1 > populacao2){
@@ -233,3 +234,4 @@ int main() {
     }
     return 0;
 }
+
